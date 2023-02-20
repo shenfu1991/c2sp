@@ -1,4 +1,5 @@
 public struct C2SP {
-    public init() {
+    public func getInfo() {
+        debugPrint("hi,wenxi")
     }
 }
