@@ -18,7 +18,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .target(name: "CHalf"),
+        .target(name: "CHalf",dependencies: []),
         .target(
             name: "c2sp",
             dependencies: ["CHalf"]),

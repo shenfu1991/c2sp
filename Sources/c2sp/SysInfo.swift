@@ -5,9 +5,7 @@
 //  Created by xuanyuan on 2023/2/20.
 //
 
-#if SWIFT_PACKAGE
 import CHalf
-#endif
 
 import Foundation
 
