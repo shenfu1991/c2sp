@@ -8,7 +8,7 @@
 import Foundation
 
 open class SysInfo {
-    static func getMomory() {
+    public static func getMomory() {
         return "01 MB"
     }
 }
