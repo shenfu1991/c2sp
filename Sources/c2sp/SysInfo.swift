@@ -14,7 +14,7 @@ open class SysInfo {
 //        return "01 MB"
         
         let zh = test()
-        print(zh)
+//        print(zh)
         return "\(zh) MB"
     }
 }
