@@ -129,9 +129,9 @@ size_t getCurrentRSS( )
 int test() {
     size_t currentSize = getCurrentRSS();
 //    printf("%s",currentSize);
-    printf("The value of current: %zu bytes\n", currentSize);
+//    printf("The value of current: %zu bytes\n", currentSize);
 
-    size_t peakSize = getPeakRSS( );
-    printf("The value of peak: %zu bytes\n", peakSize);
+//    size_t peakSize = getPeakRSS( );
+//    printf("The value of peak: %zu bytes\n", peakSize);
     return (int)currentSize/1024/1024;
 }
